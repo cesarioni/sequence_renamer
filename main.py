@@ -9,6 +9,7 @@ newPrefix="Ring1C_"
 fileExtension=".exr"
 ##path=r"C:\Users\Cesar\Desktop\last class\seqTest"
 root=tk.Tk()
+path="wdw"
 path=""
 def file_name(prefix,nextNumber,fileExtension, path):
     numDigit = str(nextNumber).rjust(4, '0')
